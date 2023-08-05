@@ -45,4 +45,4 @@ jobs:
         uses: superfly/flyctl-actions/setup-flyctl@master
 
       - name: Deploy to Fly.io
-        run: flyctl deploy --image ghcr.io/marketplace-team-challenge/marketplace_be:latest
+        run: flyctl deploy --image ghcr.io/marketplace-team-challenge/marketplace_be:latest -a marketplace-be
